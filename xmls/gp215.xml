@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<canon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<gp215>
+		<Error>E000</Error>
+		<Cause>The fixing temperature fails to rise. • Thermistor (TH1; poor contact, open circuit) • Heater driver (faulty) • DC controller PCB</Cause>
+		<Description>• The main thermistor (TH1) detects less than 50°C for 200 ms 1 sec after voltage has been applied to the heater. • The main thermistor (TH1) detects less than 90°C for 200 ms 2 sec after voltage has been applied to the heater. • The sub thermistor (TH2) detects less than 90°C for 200 ms 4 sec after voltage has been applied to the heater.</Description>
+	</gp215>
+	<gp215>
+		<Error>E001</Error>
+		<Cause>The fixing temperature rises abnormally. • Thermistor (TH1, TH2; short cir­cuit) • DC controller PCB (faulty)</Cause>
+		<Description>• The main thermistor (TH1) detects more than 250°C for 200 ms during copying operation. • The sub thermistor (TH2) detects more than 260°C for 200 ms during copying operation. • The main thermistor (TH1) detects a tem­perature in excess of a specific tempera­ture by 30°C or more for 200 ms during copying operation. • The thermistor (TH1, TH2) detects an increase in temperature of 40°C or more during standby. • The main thermistor (TH1) detects an increase in temperature of 100°C or more in 1 sec. • The main thermistor (TH1) detects in increase in temperature of 100°C or more in 1 sec.</Description>
+	</gp215>
+	<gp215>
+		<Error>E002</Error>
+		<Cause>The fixing temperature fails to reach a specific value. • Thermistor (TH1, TH2; off con­tact, poor contact, open circuit) • Fixing heater (open circuit; cracking) • Fixing heater drive circuit (faulty)</Cause>
+		<Description>• The main thermistor detected less than 105°C for 200 ms 1 sec after it has detect­ed 90°C. • The main thermistor (TH1) detected less than 120°C for 200 ms 1 sec after it has detected 105°C. • The main thermistor detected less than 120°C for 200 ms after it has detected 105°C. • The main thermistor (TH1) detects less than 135°C for 200 ms 1 sec after it has detected 120°C. • The main thermistor (TH1) detects less than 150°C for 200 ms 1 sec after it has detected 135°C.</Description>
+	</gp215>
+	<gp215>
+		<Error>E003</Error>
+		<Cause>The fixing temperature drops abnormally. • Thermistor (TH1, TH2; off con­tact, poor contact, open circuit) • Fixing heater (open circuit, cracking) • Fixing heater drive circuit (faulty) • DC controller PCB (faulty)</Cause>
+		<Description>• The main thermistor (TH1) detects less than 150°C for 200 ms after it has detect­ed 150°C. • The sub thermistor (TH2) detects less than 150°C for 200 ms after it has detect­ed 150°C.</Description>
+	</gp215>
+	<gp215>
+		<Error>E007</Error>
+		<Cause>The fixing film has become dis­placed. • Fixing film (wrong position, tear) • Tension roller (wrong position, wrong operation) • Fixing film motor (faulty) • Fixing film sensor (faulty)</Cause>
+		<Description>• The output of the fixing film sensor contin­ues to be ‘1’ or ‘0’ for 2.1 sec or more.</Description>
+	</gp215>
+	<gp215>
+		<Error>E007 -01</Error>
+		<Cause>The fixing film has become fully displaced. • Fixing film (recovery mechanism fault)</Cause>
+		<Description>• The displacement is not corrected after executing film recovery mode which turns on when the main power is tuned off and on in response to ‘E007’.</Description>
+	</gp215>
+	<gp215>
+		<Error>E010</Error>
+		<Cause>The main motor fails to lock. • Main motor (M1; faulty) • DC controller PCB (faulty)</Cause>
+		<Description>• The main motor does not lock for 10 sec after it is started. • The value is outside a specific range, and the main motor does not lock for 3 sec.</Description>
+	</gp215>
+	<gp215>
+		<Error>E030</Error>
+		<Cause>The total counter fails to operate. • Total counter (CNT1,CNT2; open circuit) • DC controller PCB (faulty)</Cause>
+		<Description>• A check is made immediately before the counter turns on and off. (Normal, if the counter drive signal is ‘0’ when the counter turns on.)</Description>
+	</gp215>
+	<gp215>
+		<Error>E031</Error>
+		<Cause>The option counter fails to operate. • Option counter (CNT3; open cir­cuit) • DC controller PCB (faulty)</Cause>
+		<Description>• A check is made immediately before the counter turns on and off. (Normal, if the counter drive signal is ‘0’ when the counter turns on.)</Description>
+	</gp215>
+	<gp215>
+		<Error>E032</Error>
+		<Cause>The copy data controller counter is faulty. • Communication (counter data between Copy Data Controller and copier) • DC controller PCB (faulty)</Cause>
+		<Description>• The count data is not detected by the Copy Data Controller within a specific period of time after the copier has gener­ated the copy start signal.</Description>
+	</gp215>
+	<gp215>
+		<Error>E051</Error>
+		<Cause>The horizontal registration home position detection mechanism fails. • Horizontal registration sensor (PS14; faulty) • Horizontal registration motor (M9; faulty) • DC controller PCB (faulty)</Cause>
+		<Description>• The home position is not detected after generation of the horizontal registration drive signal.</Description>
+	</gp215>
+	<gp215>
+		<Error>E064</Error>
+		<Cause>The high-voltage (primary charg­ing, transfer charging, developing) output is faulty. • Composite power supply PCB (faulty) • DC controller PCB (faulty) • Wiring (faulty; short circuit, open circuit)</Cause>
+		<Description>• The difference between the high-voltage control signal and the actual high-voltage output is more than a specific value. • Any of the primary charging roller, transfer charging roller, and developing bias has an output error.</Description>
+	</gp215>
+	<gp215>
+		<Error>E100</Error>
+		<Cause>A BD error has occurred. • Laser unit (faulty) • BD PCB (faulty) • Laser driver PCB (faulty) • Image processor PCB (faulty)</Cause>
+		<Description>• The BD signal is not generated within 2 sec after the laser has been turned on. • The BD signal cycle has a discrepancy.</Description>
+	</gp215>
+	<gp215>
+		<Error>E110</Error>
+		<Cause>The laser scanner motor fails to lock. • Laser scanner motor (M3; faulty) • Laser scanner driver PCB (faulty) • DC controller PCB (faulty)</Cause>
+		<Description>• A specific speed is not reached after the laser scanner motor drive signal has been generated. • The speed deviates after it has reached a specific speed.</Description>
+	</gp215>
+	<gp215>
+		<Error>E190</Error>
+		<Cause>The RAM has an error.</Cause>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>E191</Error>
+		<Cause>An error has occurred in serial communication between the DC controller PCB and the composite power supply PCB.</Cause>
+		<Description>• The communication data is not updated for 8 sec or more. • The check sum of the communication data is different for three times in a row.</Description>
+	</gp215>
+	<gp215>
+		<Error>E202</Error>
+		<Cause>The scanner home position cannot be detected.</Cause>
+		<Description>• The scanner does not return to home position after it has started to move.</Description>
+	</gp215>
+	<gp215>
+		<Error>• No code indi­</Error>
+		<Cause>• Scanner home position sensor</Cause>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>cation.</Error>
+		<Cause>(PS1; faulty)</Cause>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>• Keys on con­</Error>
+		<Cause>• Scanner motor (Faulty)</Cause>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>trol panel</Error>
+		<Cause>• DC controller PCB (faulty)</Cause>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>locked.</Error>
+		<Cause/>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>E220</Error>
+		<Cause>• Scanning lamp (error activation) • Scanning lamp (faulty) • Composite power supply PCB (faulty) • DC controller PCB (faulty)</Cause>
+		<Description>• Activation of the lamp has been detected during standby. • Deactivation of the lamp has been detect­ed during copying.</Description>
+	</gp215>
+	<gp215>
+		<Error>E240</Error>
+		<Cause>An error in the communication with the DC controller PCB has occurred. • DC controller PCB (faulty) • Image processor PCB (faulty)</Cause>
+		<Description>• An error has been detected in the commu­nication between the DC controller PCB an the image processing PCB.</Description>
+	</gp215>
+	<gp215>
+		<Error>E243</Error>
+		<Cause>An error has occurred in communi­cation with the control panel. • Control panel CPU (error) • Image processor PCB (faulty)</Cause>
+		<Description>An error has been detected in the communi­cation between the CPU on the control panel and the image processor PCB.</Description>
+	</gp215>
+	<gp215>
+		<Error>E261</Error>
+		<Cause>There in an error in the zero cross signal. • Power supply frequency (fluctu­ation) • Composite power supply PCB (faulty)</Cause>
+		<Description>The intervals of zero cross signals are out­side the allowed range.</Description>
+	</gp215>
+	<gp215>
+		<Error>E301</Error>
+		<Cause>The intensity of the scanning lamp is not correctly adjusted. • Intensity sensor (faulty) • Scanning lamp (faulty) • DC controller PCB (faulty)</Cause>
+		<Description/>
+	</gp215>
+	<gp215>
+		<Error>E710</Error>
+		<Cause>An error in IPC communication has occurred.</Cause>
+		<Description>• BS does not go ‘1’ for 3 sec.</Description>
+	</gp215>
+	<gp215>
+		<Error>E711</Error>
+		<Cause>An error in IPC communication has occurred.</Cause>
+		<Description>• DT has been written in the error register four times.</Description>
+	</gp215>
+	<gp215>
+		<Error>E712</Error>
+		<Cause>An error in communication with the feeder has occurred.</Cause>
+		<Description>• The communication has been interrupted.</Description>
+	</gp215>
+	<gp215>
+		<Error>E713</Error>
+		<Cause>An IC error has occurred (sorter).</Cause>
+		<Description>• The communication has been interrupted.</Description>
+	</gp215>
+	<gp215>
+		<Error>E716</Error>
+		<Cause>An error has occurred in communi­cation with the pedestal.</Cause>
+		<Description>• The communication has been interrupted.</Description>
+	</gp215>
+	<gp215>
+		<Error>E717</Error>
+		<Cause>An error has occurred in communi­cation with the Copy Data Controller.</Cause>
+		<Description>The communication has been interrupted.</Description>
+	</gp215>
+	<gp215>
+		<Error>E803</Error>
+		<Cause>An error has occurred in the out­put voltage of the composite power supply PCB. Both ends of the fluorescent lamp has blackened because of deterio­ration.</Cause>
+		<Description>The output voltage (+24Vu or +24VR) of the composite power supply PCB has an error.</Description>
+	</gp215>
+</canon>

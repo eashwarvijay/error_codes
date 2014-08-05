@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<canon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<gp405>
+		<Error> E000  </Error>
+		<Cause> The fixing temperature does not increase. • The main thermistor (TH1) has poor contact or an open circuit. • The fixing heater has an open circuit. • The thermal switch has an open circuit. • The DC controller PCB has a fault. • The image processor PCB has fault.  </Cause>
+		<Description> The main thermistor reading does not reach 55°C 45 sec after the main power switch has been turned on.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E001  </Error>
+		<Detail> 0001  </Detail>
+		<Cause> The fixing temperature has increased abnormally. • The main thermistor (TH1) has a short circuit. • The fixing heater drive circuit has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> The output of the main thermistor has exceeded 220°C.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0002  </Detail>
+		<Cause> The sub thermistor has detected overheating. • The main thermistor (TH) has a short circuit. • The fixing heater drive circuit has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> The output of the sub thermistor has exceeded 235°C.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0003  </Detail>
+		<Cause> The sub thermistor has an open circuit. • The sub thermistor has an open circuit. • The SSR has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+	</gp405>
+	<gp405>
+		<Error> E002  </Error>
+		<Cause> The fixing temperature does not reach a specific value. • The thermistor (TH1, TH2) is not mounted properly, has poor contact, or has an open circuit. • The fixing heater has an open circuit or has a crack. • The fixing heater drive circuit has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> The output of the main thermistor satisfies the following: • 31 sec or more between 40°C and 75°C. • 23 sec or more between 75°C and 100°C • 19 sec or more between 100°C and 120°C • 19 sec or more between 120°C and 140°C • 19 sec or more between 140°C and 160°C. • 15 sec or more between 160°C and 170°C.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E003  </Error>
+		<Cause> The fixing temperature has dropped abnormally. • The thermistor (TH1, TH2) is not mounted properly, has poor contact, or has an open circuit. • The fixing heater has an open circuit or has a crack. • The fixing heater drive circuit has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> • The thermistor (TH1, TH2) has detected 100°C or less after wait-up.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E004  </Error>
+		<Detail> 0001  </Detail>
+		<Cause> The SSR has a short circuit. • The SSR has an error. • The DC controller PCB has a fault.  </Cause>
+		<Description> • The fixing heater remains on. • The fixing temperature has increased abnormally.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0002  </Detail>
+		<Cause> The heater relay has an error. • The heater relay has an error. • The DC controller PCB has a fault.  </Cause>
+		<Description> The heater relay remains on.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E005  </Error>
+		<Cause> The fixing cleaning belt has been taken up. • The fixing cleaning belt has been taken up. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> The fixing cleaning belt drive solenoid has been driven more than a specific number of times.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E010  </Error>
+		<Cause> The main motor has faulty rotation. • The main motor (M1) has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> • The rotation of the main motor does not stabilize 9 sec after it has started. • While the main motor is rotating at a constant speed, its revolution has deviated from a specific value by 9 sec or more.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E014  </Error>
+		<Cause> The fixing motor has faulty rotation. • The main motor (M2) has a fault. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> • The rotation of the main motor does not stabilize 1 sec after it has started. • While the fixing motor is rotating at a constant speed, its revolution has deviated from a specific value by 1 sec or more.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E030  </Error>
+		<Cause> The total copy counter does not operate. • The total copy counter (CNT1) has an open circuit. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> • A check is made immediately before the counter turns on and off. (When the counter turns on, normal if the counter drive signal is '0'.)  </Description>
+	</gp405>
+	<gp405>
+		<Error> E032  </Error>
+		<Cause> The copy controller counter has an error. • The counter data communication between the copier and the copy data controller has an error. • The DC controller PCB has a fault. • The image processor PCB has a fault.  </Cause>
+		<Description> The copy data controller does not detect count data within a specific time after the copier has sent the copy start signal.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E051  </Error>
+		<Cause> The horizontal registration home position detection mechanism has a fault. • The horizontal registration sensor (PS10) has a fault. • The horizontal registration motor (M9) has a fault. • The DC controller PCB has a fault.  </Cause>
+		<Description> The home position cannot be detected after the horizontal registration signal has been sent.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E064  </Error>
+		<Cause> The high-voltage (primary charging, transfer charging, development) output has a fault. • The composite power supply PCB has a fault. • The DC controller PCB has a fault. • The wiring has a fault (short circuit, open circuit).  </Cause>
+		<Description> • The difference between the output prescribed by the high-voltage control signal and the high-voltage output actually generated is more than a specific value. • Either the primary charging roller, transfer charging roller, or developing bias has an output error.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E100  </Error>
+		<Detail> 0001  </Detail>
+		<Cause> BD error has occurred. • The laser unit has a fault. • The BD PCB has a fault. • The BD PCB has a fault. • The laser driver PCB has a fault.  </Cause>
+		<Description> • The BD signal is not generated during image formation (2nd sheet pick-up and later). • The BD signal cycle has deviated.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0002  </Detail>
+		<Cause> • The BD signal is not generated within 2 sec after the laser has turned on (at time of 1st sheet pick-up).  </Cause>
+	</gp405>
+	<gp405>
+		<Error> E110  </Error>
+		<Cause> The laser scanner motor does not generate clock pulses. • The laser scanner motor (M3) has a fault. • The laser scanner driver PCB has a fault. • The DC controller PCB has a fault.  </Cause>
+		<Description> • The laser scanner motor does not reach a specific speed after the laser scanner motor drive signal has been generated. • The laser scanner motor deviates from a specific speed after it has reached it.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E191  </Error>
+		<Cause> The serial communication between the DC controller PCB and the composite power supply PCB has a fault.  </Cause>
+		<Description> • The communication data is not updated for 8 sec or more. • The check sum of the communication data varies three times continuously.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E202  </Error>
+		<Cause> The scanner home position cannot be detected.  </Cause>
+		<Description> • The scanner does not reach the home position after it  </Description>
+	</gp405>
+	<gp405>
+		<Error> • No code indication.  </Error>
+		<Cause> • The scanner home position sensor  </Cause>
+		<Description> has started to operate.  </Description>
+	</gp405>
+	<gp405>
+		<Error> • Control panel keys  </Error>
+		<Cause> (PS1) has a fault.  </Cause>
+		<Description> </Description>
+	</gp405>
+	<gp405>
+		<Error> locked.  </Error>
+		<Cause> • The scanner motor (M3) has a fault. • The DC controller PCB has a fault.  </Cause>
+		<Description> </Description>
+	</gp405>
+	<gp405>
+		<Error> E220  </Error>
+		<Cause> The scanning lamp turns on abnormally. • The scanning lamp has a fault. • The intensity sensor has a fault. • The CCD PCB has a fault. • The composite power supply PCB has a fault. • The DC controller PCB has a fault.  </Cause>
+		<Description> • The lamp intensity does not exceed a specific value within a specific time after scanning operation starts (following lamp activation). • The lamp remains off for 10 sec when it should remain on.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E240  </Error>
+		<Cause> The communication on the image processor PCB has a fault. • The communication between the DC-CPU and the IP-CPU has an error.  </Cause>
+		<Description> A communication error is detected between the DC-CPU and the IP-CPU on the image processor CPB.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E243  </Error>
+		<Cause> The communication with the control panel has an error. • The control panel CPU has an error. • The image processor PCB has an error.  </Cause>
+		<Description> A communication error is detected between the CPU on the control panel and the image processor PCB.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E261  </Error>
+		<Cause> The zero-cross signal has an error. • The power supply frequency fluctuates. • The composite power supply PCB has a fault.  </Cause>
+		<Description> The intervals of the zero-cross signal deviates from a specific range.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E300  </Error>
+		<Detail> 0000  </Detail>
+		<Cause> The download data contains a mismatch model type (speed, spec). The versions of the two flash ROMs on the image processor PCB do not match.  </Cause>
+		<Description> The download data is found to be for a different model when the main switch is turned on after downloading.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0001  </Detail>
+	</gp405>
+	<gp405>
+		<Error> E301  </Error>
+		<Cause> The scanning lamp intensity has a fault. • The scanning lamp has a fault. • The CCD PCB has a fault. • The DC controller PCB has a fault.  </Cause>
+		<Description> The output of the intensity sensor drops below a specific value while the lamp is on.  </Description>
+	</gp405>
+	<gp405>
+		<Error> E315  </Error>
+		<Detail> </Detail>
+		<Cause> The image data coding mechanism has an error. • The coding chip has an error. • The image memory has an error.  </Cause>
+		<Description> A fault is discovered when image data is coded/decoded.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0001  </Detail>
+		<Cause> An error has occurred in self diagnosis on the chip for image compression/ decompression.  </Cause>
+		<Description> When the main power is turned on.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0002  </Detail>
+		<Cause> An error has occurred in decoding.  </Cause>
+		<Description> When image data is being decoded for printing.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0003  </Detail>
+		<Cause> An error has occurred in coding.  </Cause>
+		<Description> When image data is being coded during copying or fax reading.  </Description>
+	</gp405>
+	<gp405>
+		<Detail> 0004  </Detail>
+		<Cause> An error has occurred in coding.  </Cause>
+		<Description> When image data is being coded during storing print data.  </Description>
+	</gp405>
+	<gp405>
+		<Error>E601</Error>
+		<Cause>The communication between the machine and the SCSI board has a fault.</Cause>
+		<Description>An error exists in the communication between the SCSI-CPU and the IP-CPU.</Description>
+	</gp405>
+	<gp405>
+		<Detail>0</Detail>
+		<Description>If the response from the SCSI board has an error when the
+machine sends a command to
+the SCSI board.</Description>
+	</gp405>
+	<gp405>
+		<Detail>1</Detail>
+		<Description>When an initial check is made
+for communication.</Description>
+	</gp405>
+	<gp405>
+		<Detail>2</Detail>
+		<Description>When an initial check is made
+for communication.</Description>
+	</gp405>
+	<gp405>
+		<Detail>3</Detail>
+		<Description>When a check is made for
+communication initialization.</Description>
+	</gp405>
+	<gp405>
+		<Detail>4</Detail>
+		<Description>When a check is made for
+communication initialization.</Description>
+	</gp405>
+	<gp405>
+		<Detail>5</Detail>
+		<Description>When a check is made for
+communication initializatio</Description>
+	</gp405>
+	<gp405>
+		<Detail>6</Detail>
+		<Description>If no response comes from the
+SCSI board within a specific
+time when the machine sends a
+command to the SCSI board.</Description>
+	</gp405>
+	<gp405>
+		<Detail>7</Detail>
+		<Description>If no response comes from the
+machine to the SCSI board
+within a specific time.</Description>
+	</gp405>
+	<gp405>
+		<Detail>8</Detail>
+		<Description>If the machine has sent NAK
+three times or more in response to
+a command from ACSI board</Description>
+	</gp405>
+	<gp405>
+		<Detail>10</Detail>
+		<Description>If the SCSI board has sent NAK
+three times or more when it sends
+a command to the machine.</Description>
+	</gp405>
+	<gp405>
+		<Error>E603</Error>
+		<Cause>The SCSI fuse has blown.</Cause>
+		<Description>The SCSI fuse has blown.</Description>
+	</gp405>
+	<gp405>
+		<Error>E604</Error>
+		<Cause>The image memory has a fault.
+• The RAM has a fault.
+• The expansion memory is not mounted
+properly</Cause>
+		<Description>A write fault is detected when
+image data is written to the
+image memory.
+The voltage of the</Description>
+	</gp405>
+	<gp405>
+		<Error>E605</Error>
+		<Cause>The image memory battery has a fault.
+• The battery has a fault. (The image
+memory battery is an accessory to the
+FAX board.)</Cause>
+		<Description>The voltage of the image
+memory battery is lower than a
+specific value (if after an
+adequate charging time and the
+power was turned on within a
+charge life).</Description>
+	</gp405>
+	<gp405>
+		<Error>E674</Error>
+		<Cause>The fax unit has a fault.
+• The chip has a fault.
+• The fax unit has poor connection.</Cause>
+		<Description>An error is detected when
+writing to the chip while
+receiving a fax message</Description>
+	</gp405>
+	<gp405>
+		<Error>E677</Error>
+		<Cause>The communication between the printer
+board and the copier is faulty.</Cause>
+		<Description>An error has occurred in the
+communication between the
+printer board and the IP-CPU.</Description>
+	</gp405>
+	<gp405>
+		<Detail>1</Detail>
+		<Cause>An error is noted while the printer board
+is being started up.</Cause>
+		<Description>The power-on signal from the
+printer board does not reach the
+image processor PCB</Description>
+	</gp405>
+	<gp405>
+		<Detail>2</Detail>
+		<Cause>The communication between the printer
+board and the copier is faulty.</Cause>
+		<Description>An error has occurred in the
+communication between the
+printer board and the IP-CPU.</Description>
+	</gp405>
+	<gp405>
+		<Detail>3</Detail>
+		<Cause>The initialization of the printer board is
+faulty.</Cause>
+	</gp405>
+	<gp405>
+		<Detail>4</Detail>
+		<Cause>The communication between printer
+board and the copier is faulty..</Cause>
+	</gp405>
+	<gp405>
+		<Detail>5</Detail>
+		<Cause>A check-sum error is noted at the end of
+initializing the printer board</Cause>
+	</gp405>
+	<gp405>
+		<Detail>6</Detail>
+		<Cause>Time-out error during processing of PDL
+data</Cause>
+	</gp405>
+	<gp405>
+		<Error>E710</Error>
+		<Cause>The IPC chip self diagnosis has an error.
+An error exists in the IPC chip self
+diagnosis mechanism on the image
+processor PC</Cause>
+		<Description>The IPC chip self diagnosis
+mechanism on the image
+processor PCB does not end
+normally when power is turned
+on.</Description>
+	</gp405>
+	<gp405>
+		<Error>E711</Error>
+		<Cause>The IPC communication has a fault.
+• The cable has poor contact.
+• The cable has a fault.
+• The options print PCB unit has a fault.
+• The accessory IPC chip has a fault.</Cause>
+		<Description>The communication between
+the IPC chip on the image
+processor PCB and the IPC
+chip (accessory) has a fault.</Description>
+	</gp405>
+	<gp405>
+		<Error>E712</Error>
+		<Cause>The communication with the feeder has a
+fault.</Cause>
+		<Description>The communication is
+interrupted</Description>
+	</gp405>
+	<gp405>
+		<Error>E713</Error>
+		<Cause>The sorter IC has an error.</Cause>
+		<Description>The communication is
+interrupted.</Description>
+	</gp405>
+	<gp405>
+		<Error>E716</Error>
+		<Cause>The communication with the pedestal has
+a fault</Cause>
+		<Description>The communication is
+interrupted.</Description>
+	</gp405>
+	<gp405>
+		<Error>E717</Error>
+		<Cause>The communication with the copy data
+controller has a fault.</Cause>
+		<Description>The communication is
+interrupted.</Description>
+	</gp405>
+	<gp405>
+		<Error>E803</Error>
+		<Cause>Both ends of the fluorescent lamp became
+black because of an error output voltage
+of the composite power supply or
+deterioration of the lamp.</Cause>
+		<Description>The output voltage of the
+composite power supply PCB
+(+24 VU, +24 VR) has an error.
+For details, refer to LED200 (to
+see how it turns on; p.14-133).</Description>
+	</gp405>
+	<gp405>
+		<Error>E805</Error>
+		<Cause>The fan rotation has a fault.
+• The fan has a fault.
+• The DC controller PCB has a fault.
+• The fan connector has poor contact.</Cause>
+		<Description>• The fan motor does not
+rotate at a specific speed 5
+sec after it has started to
+rotate.
+• The fan motor rotation
+deviates from a specific
+value for 5 sec or more
+while it is rotating at a
+specific speed.
+For the locations of the fans,
+see II. of Chapter 10.</Description>
+	</gp405>
+	<gp405>
+		<Detail>2</Detail>
+		<Cause> Fixing heat discharge fan 1 (FM2)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>3</Detail>
+		<Cause> Fixing heat discharge fan 2 (FM3)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>4</Detail>
+		<Cause> Laser driver cooling fan (FM4)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>5</Detail>
+		<Cause> Laser scanner motor cooling fan (FM5)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>6</Detail>
+		<Cause> Laser scanner motor cooling fan 2 (FM6)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>7</Detail>
+		<Cause> Cleaner heat exhaust fan (FM7)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>8</Detail>
+		<Cause> System cooling fan (FM8)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>10</Detail>
+		<Cause> Low-voltage power supply cooling fan 1   (FM10) </Cause>
+	</gp405>
+	<gp405>
+		<Detail>11</Detail>
+		<Cause> Low-voltage power supply cooling fan 2   (FM11)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>12</Detail>
+		<Cause> Reader cooling fan 1 (FM12)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>13</Detail>
+		<Cause> Reader cooling fan 2 (FM13)  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>14</Detail>
+		<Cause> Drum cartridge cooling fan 1  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>15</Detail>
+		<Cause> Drum cartridge cooling fan 2  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>16</Detail>
+		<Cause> Drum cartridge cooling fan 3  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>17</Detail>
+		<Cause> DC controller PCB cooling fan  </Cause>
+	</gp405>
+	<gp405>
+		<Detail>18</Detail>
+		<Cause> Scanner motor cooling fan  </Cause>
+	</gp405>
+</canon>

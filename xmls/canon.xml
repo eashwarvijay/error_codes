@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<canonc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<canon>
+		<Error> EO  </Error>
+		<Cause> Fuser unit malfunction  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> EOOO  </Error>
+		<Cause> Fuser unit malfunction  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E001  </Error>
+		<Cause> Fuser unit thermistor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E002  </Error>
+		<Cause> Fuser unit thermistor/triac problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E003  </Error>
+		<Cause> Fuser unit thermistor/heater problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E004  </Error>
+		<Cause> Fuser unit malfunction SSR problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E005  </Error>
+		<Cause> Fuser unit cleaning belt has run out  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E006  </Error>
+		<Cause> Fuser unit not installed  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E007  </Error>
+		<Cause> Fuser unit film/thermistor problem    /    Fuser unit film fully displaced  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E008  </Error>
+		<Cause> Fuser oil not detected  </Cause>
+		<Action> Pass to iAssist  </Action>
+	</canon>
+	<canon>
+		<Error> E009  </Error>
+		<Cause> Voltage mismatch in power supply and Fuser  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E010  </Error>
+		<Cause> Main drive problem  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E011  </Error>
+		<Cause> </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E012  </Error>
+		<Cause> The drum home position is not found  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E013  </Error>
+		<Cause> Waste toner feed screw problem  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E014  </Error>
+		<Cause> Fixing drive problem  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E015  </Error>
+		<Cause> Pick-up drive problem  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E016  </Error>
+		<Cause> Drum cleaning blade drive problem  </Cause>
+		<Action> Turn machine off and on -if that doesn't work, log a service call  </Action>
+	</canon>
+	<canon>
+		<Error> E017  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E019  </Error>
+		<Cause> Waste toner full  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E020  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E021  </Error>
+		<Cause> The rotor fails to rotate and move properly due to a fault in the developing rotor/motor ass'y.  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> </Error>
+		<Cause> Pressure fails to be applied to the developer  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E022  </Error>
+		<Cause> after a specific time passes after the developer  </Cause>
+		<Action> </Action>
+	</canon>
+	<canon>
+		<Error> </Error>
+		<Cause> is selected.  </Cause>
+		<Action> </Action>
+	</canon>
+	<canon>
+		<Error> E025  </Error>
+		<Cause> Toner not set correctly  </Cause>
+		<Action> Pass to iAssist  </Action>
+	</canon>
+	<canon>
+		<Error> E030  </Error>
+		<Cause> The copy counter has a problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E031  </Error>
+		<Cause> The optional counter has a problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E032  </Error>
+		<Cause> Copy data controller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E040  </Error>
+		<Cause> The cassette / Multifeeder lifter motor is faulty,  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E041  </Error>
+		<Cause> Paper deck lifter problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E043  </Error>
+		<Cause> Deck drive problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E045  </Error>
+		<Cause> OHP Sensor Error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E050  </Error>
+		<Cause> Double siding problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E051  </Error>
+		<Cause> Horizontal registration problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E060  </Error>
+		<Cause> Cleaner problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E061  </Error>
+		<Cause> Potential control fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E063  </Error>
+		<Cause> Transfer sep corona cleaner error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E064  </Error>
+		<Cause> Power supply problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E065  </Error>
+		<Cause> Power supply leakage problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E066  </Error>
+		<Cause> Pre transfer charger wire cleaner  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E067  </Error>
+		<Cause> High voltage board problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E068  </Error>
+		<Cause> High voltage board problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E069  </Error>
+		<Cause> High voltage board problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E070  </Error>
+		<Cause> ITB HP detection error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E071  </Error>
+		<Cause> Transfer drum problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E072  </Error>
+		<Cause> Transfer drum cleaner problem  </Cause>
+		<Action> Pass to iAssist  </Action>
+	</canon>
+	<canon>
+		<Error> E073  </Error>
+		<Cause> Transfer drawer connector faulty  </Cause>
+		<Action> Pass to iAssist  </Action>
+	</canon>
+	<canon>
+		<Error> E075  </Error>
+		<Cause> Transfer belt edge sensor  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E081  </Error>
+		<Cause> The vertical motor clock is faulty.  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E085  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E100  </Error>
+		<Cause> Laser unit beam detect fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E102  </Error>
+		<Cause> Image processor faulty  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E110  </Error>
+		<Cause> Laser motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E111  </Error>
+		<Cause> Laser scanner motor error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E121  </Error>
+		<Cause> Laser cooling fan error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E141  </Error>
+		<Cause> Pressure roller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E146  </Error>
+		<Cause> Waste ink tank full  </Cause>
+		<Action> Eng . Required  </Action>
+	</canon>
+	<canon>
+		<Error> E157  </Error>
+		<Cause> Ink heater voltage drive problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E170  </Error>
+		<Cause> Carriage position problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E190  </Error>
+		<Cause> Laser control problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E191  </Error>
+		<Cause> Communication with power supply error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E193  </Error>
+		<Cause> DC controller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E194  </Error>
+		<Cause> CCD unit for pattern reading  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E200  </Error>
+		<Cause> When the scanner moves forward, the scanner reversal sensor is activated.  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E202  </Error>
+		<Cause> Scanner drive problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E203  </Error>
+		<Cause> The scanner does not operate correctly  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E204  </Error>
+		<Cause> The scanner does not operate correctly  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E206  </Error>
+		<Cause> Reader main scanner position problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E208  </Error>
+		<Cause> Scanner motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E209  </Error>
+		<Cause> ScannerlDF problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E210  </Error>
+		<Cause> Lens problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E211  </Error>
+		<Cause> The exposure lamp heater error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E212  </Error>
+		<Cause> Len horizontal movement problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E213  </Error>
+		<Cause> Scanner locking problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E215  </Error>
+		<Cause> The exposure lamp heater error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E218  </Error>
+		<Cause> Exposure lamp error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E219  </Error>
+		<Cause> Exposure lamp error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E220  </Error>
+		<Cause> Scanning lamp problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E222  </Error>
+		<Cause> The exposure lamp is faulty  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E224  </Error>
+		<Cause> Blanking shutter problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E226  </Error>
+		<Cause> The scanner cooling fan has an error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E240  </Error>
+		<Cause> Power supply communication error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E241  </Error>
+		<Cause> Image processor error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E243  </Error>
+		<Cause> Control panel communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E244  </Error>
+		<Cause> Power supply problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E251  </Error>
+		<Cause> Inverter cooling fan error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E260  </Error>
+		<Cause> Power supply cooling fan problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E261  </Error>
+		<Cause> Power Supply Frequency problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E301  </Error>
+		<Cause> Scanning lamp intensity problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E302  </Error>
+		<Cause> CCD Fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E304  </Error>
+		<Cause> Image processor communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E305  </Error>
+		<Cause> Image processor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E315  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E320  </Error>
+		<Cause> CCD Fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E350  </Error>
+		<Cause> Bar code not identified  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E351  </Error>
+		<Cause> Image processor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E352  </Error>
+		<Cause> Bar code not identified  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E400  </Error>
+		<Cause> Document Feeder communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E401  </Error>
+		<Cause> Document Feeder pick-up motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E402  </Error>
+		<Cause> Document Feeder white belt motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E403  </Error>
+		<Cause> Document Feeder reverse roller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E404  </Error>
+		<Cause> Document Feeder delivery motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E405  </Error>
+		<Cause> Document Feeder pick-up roller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E406  </Error>
+		<Cause> Document Feeder side guide problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E407  </Error>
+		<Cause> Document Feeder original tray problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E408  </Error>
+		<Cause> Document Feeder feed motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E410  </Error>
+		<Cause> Pick-up motor error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E411  </Error>
+		<Cause> Document feeder sensor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E420  </Error>
+		<Cause> Feeder Back-up data error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E422  </Error>
+		<Cause> Document Feeder communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E425  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E431  </Error>
+		<Cause> Document sub feeder registration error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E441  </Error>
+		<Cause> Computer form feed motor problem  </Cause>
+		<Action> Eng Required  </Action>
+	</canon>
+	<canon>
+		<Error> E442  </Error>
+		<Cause> Computer form feeders exhaust fan error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E443  </Error>
+		<Cause> Document Feeder lamp regulator  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E446  </Error>
+		<Cause> Computer form feed mirror drive error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E447  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E500  </Error>
+		<Cause> Sorter has a problem communicating  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E501  </Error>
+		<Cause> Sorter has a communication error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E510  </Error>
+		<Cause> Sorter feed motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E513  </Error>
+		<Cause> Sorters tandem feed unit drive problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E514  </Error>
+		<Cause> Stack delivery fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E515  </Error>
+		<Cause> Sorter feed motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E516  </Error>
+		<Cause> Sorter low speed feeding motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E517  </Error>
+		<Cause> Sorter buffer unit pressure cam problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E521  </Error>
+		<Cause> Sorter trays shift motor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E522  </Error>
+		<Cause> Sorter push bar problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E523  </Error>
+		<Cause> Sorter reference wall problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E524  </Error>
+		<Cause> Sorter multiple guide problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E525  </Error>
+		<Cause> Sorter automatic bin set up sensor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E526  </Error>
+		<Cause> Sorter automatic bin set up sensor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E530  </Error>
+		<Cause> Sorter guide bar problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E531  </Error>
+		<Cause> Sorter stapler unit swing problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E532  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E533  </Error>
+		<Cause> Sorter automatic staple sensor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E535  </Error>
+		<Cause> Finisher swing motor error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E537  </Error>
+		<Cause> Finisher jogging plate error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E540  </Error>
+		<Cause> Sorter bin drive problem  </Cause>
+		<Action> Pass to iAssist  </Action>
+	</canon>
+	<canon>
+		<Error> E541  </Error>
+		<Cause> Sorter tray cam position problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E542  </Error>
+		<Cause> Finisher tray lift error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E550  </Error>
+		<Cause> Sorter power problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E551  </Error>
+		<Cause> Power supply fan fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E575  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E578  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E580  </Error>
+		<Cause> There is a fault in ascent/descent of the stack tray.  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> </Error>
+		<Cause> The sensor is not turned ON within a specific time  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E583  </Error>
+		<Cause> as the tray auxiliary plate motor is in operation.  </Cause>
+		<Action> </Action>
+	</canon>
+	<canon>
+		<Error> E584  </Error>
+		<Cause> There is a fault in feed operation (No.2).  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E590  </Error>
+		<Cause> Punch unit error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E593  </Error>
+		<Cause> Punch unit error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E594  </Error>
+		<Cause> Punch unit error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E595  </Error>
+		<Cause> Punch unit error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E601  </Error>
+		<Cause> Image processor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E602  </Error>
+		<Cause> Image processor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E620  </Error>
+		<Cause> Image processor problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E630  </Error>
+		<Cause> Image processor/projector problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E631  </Error>
+		<Cause> Scanning lamp intensity problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E633  </Error>
+		<Cause> Image processor/projector problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E634  </Error>
+		<Cause> Film projector lamp problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E677  </Error>
+		<Cause> Printer board fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E700  </Error>
+		<Cause> Communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E710  </Error>
+		<Cause> DC Controller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E711  </Error>
+		<Cause> DC Controller problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E712  </Error>
+		<Cause> Document feeder communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E713  </Error>
+		<Cause> Sorter communication problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E716  </Error>
+		<Cause> The pedestal has a communication error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E717  </Error>
+		<Cause> Communication with ASSIST problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E718  </Error>
+		<Cause> Image processor/projector problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E732  </Error>
+		<Cause> Reader communication error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E732  </Error>
+		<Cause> Reader communication error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E733  </Error>
+		<Cause> Printer communication error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> </Error>
+		<Cause> The image processing ASIC or the memory  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E747  </Error>
+		<Cause> control/communication ASIC is faulty.  </Cause>
+		<Action> </Action>
+	</canon>
+	<canon>
+		<Error> E800  </Error>
+		<Cause> Auto power-off problem  </Cause>
+		<Action> Eng . Required  </Action>
+	</canon>
+	<canon>
+		<Error> E802  </Error>
+		<Cause> Power supply fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E803  </Error>
+		<Cause> The power supply has a lamp output error  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E804  </Error>
+		<Cause> Power supply unit cooling fan problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E805  </Error>
+		<Cause> Fixing assembly fan fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E820  </Error>
+		<Cause> Drum fan fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E823  </Error>
+		<Cause> Pre transfer charger fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E824  </Error>
+		<Cause> Primary charger fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E830  </Error>
+		<Cause> Separation fan fault  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E840  </Error>
+		<Cause> </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E901  </Error>
+		<Cause> Cassette feeding unit problem  </Cause>
+		<Action> Eng. Required  </Action>
+	</canon>
+	<canon>
+		<Error> E902  </Error>
+		<Cause> Horizontal registration problem  </Cause>
+		<Action> Eng . Required  </Action>
+	</canon>
+</canonc>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lexmark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<x264>
+		<Error>8xx.xx Scanner service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>840.01 Scanner disabled</Error>
+		<Description>Scanner disabled: the scanner is disabled and cannot be used.</Description>
+		<Action>Enter the configuration menu, and re-enable the scanner module. See“840.xx service check” on page 2-44.</Action>
+	</x264>
+	<x264>
+		<Error>840.02 Scanner auto disabled</Error>
+		<Description>This message is posted when the MFP PORs. Enter the configuration menu, and re-enable the scanner module. See“840.xx service check” on page 2-44.</Description>
+	</x264>
+	<x264>
+		<Error>841</Error>
+		<Description>Image pipeline ASIC</Description>
+		<Action>See“CCD service check” on page 2-46. Also, see“Flatbed home position service check” on page 2-47.</Action>
+	</x264>
+	<x264>
+		<Error>841.01</Error>
+		<Description>Service image processing unit: AFE register mismatch</Description>
+	</x264>
+	<x264>
+		<Error>841.02</Error>
+	</x264>
+	<x264>
+		<Error>841.03</Error>
+		<Description>Service image processing unit: SCNCHN DMA</Description>
+	</x264>
+	<x264>
+		<Error>841.04</Error>
+		<Description>Service image processing unit: new line too soon interrupt</Description>
+		<Action>Check the sequencer settings. See“CCD service check” on page 2-46. Also, see“Flatbed home position service check” onpage 2-47.</Action>
+	</x264>
+	<x264>
+		<Error>841.07</Error>
+		<Description>Service image processing unit: tonal data overrun</Description>
+		<Action>See“CCD service check” on page 2-46. Also, see“Flatbed home position service check” on page 2-47.</Action>
+	</x264>
+	<x264>
+		<Error>841.09</Error>
+		<Description>Service image processing unit: image processing too slow</Description>
+	</x264>
+	<x264>
+		<Error>841.96</Error>
+		<Description>System time out: SIZAR out of band interrupt</Description>
+	</x264>
+	<x264>
+		<Error>841.97</Error>
+		<Description>Service image processing unit: output data uncollected</Description>
+	</x264>
+	<x264>
+		<Error>841.98</Error>
+		<Description>Service image processing unit: SCNCHN DMA underrun</Description>
+	</x264>
+	<x264>
+		<Error>841.99</Error>
+		<Description>Service image processing unit interrupt handler delayed crash</Description>
+	</x264>
+	<x264>
+		<Error>842</Error>
+		<Description>Scanner failure: communication failure</Description>
+		<Action>See“CCD service check” on page 2-46.</Action>
+	</x264>
+	<x264>
+		<Error>843</Error>
+		<Description>Scanner failure: carriage failed to home or move todesired position</Description>
+		<Action>Carriage mechanical failure. See“Flatbed motor service check” on page 2-46.</Action>
+	</x264>
+	<x264>
+		<Error>843.01</Error>
+		<Description>Scanner Failure: ADF mechanical failure</Description>
+		<Action>See“ADF paper jam service check” on page 2-49.</Action>
+	</x264>
+	<x264>
+		<Error>843.02</Error>
+		<Description>Scanner Failure: general mechanical failure detected</Description>
+		<Action>See“CCD service check” on page 2-46.</Action>
+	</x264>
+	<x264>
+		<Error>843.03</Error>
+		<Description>Scanner Failure: pick roller engage failure</Description>
+	</x264>
+	<x264>
+		<Error>843.04</Error>
+		<Description>Scanner Failure: pick roller disengage failure</Description>
+	</x264>
+	<x264>
+		<Error>844.yy</Error>
+		<Description>Scanner failure: lamp failure</Description>
+	</x264>
+	<x264>
+		<Error>844</Error>
+		<Description>Front scan module output level error</Description>
+	</x264>
+	<x264>
+		<Error>844.01</Error>
+		<Description>Front scan module lamp level too low: front Mono channel, Front Color channels, Front Red channel, Front Green channel, and/or Front Blue channel is detected tohave low lamp level.</Description>
+	</x264>
+	<x264>
+		<Error>844.02</Error>
+	</x264>
+	<x264>
+		<Error>844.03</Error>
+		<Description>Rear scan module lamp level too low: Rear Mono channel, Rear Color channels, Rear Red channel, Rear Green channel, and/or Rear Blue channel is detected tohave low lamp level.</Description>
+	</x264>
+	<x264>
+		<Error>845.yy</Error>
+		<Description>CCD failure</Description>
+	</x264>
+	<x264>
+		<Error>845</Error>
+		<Description>Front scan module cable failure or SCC card failure</Description>
+		<Action>Check each channel (mono, R, G, B) for identical values indicating bad cable and/or SCC card. Excessive noise test for the dark data indicating some sort of CCD or analog electronics issue on that channel or channels. See“CCD service check” on page 2-46.</Action>
+	</x264>
+	<x264>
+		<Error>845.01</Error>
+		<Description>Rear scan module cable failure or SCC card failure</Description>
+	</x264>
+	<x264>
+		<Error>845.02</Error>
+		<Description>Cable/SCC failure: front scan module connector or cablefailure.</Description>
+		<Action>See“CCD service check” on page 2-46.</Action>
+	</x264>
+	<x264>
+		<Error>845.03</Error>
+		<Description>Cable/SCC failure: rear scan module connector or cablefailure</Description>
+	</x264>
+	<x264>
+		<Error>846</Error>
+		<Description>Front calibration strip unusable</Description>
+	</x264>
+	<x264>
+		<Error>846.01</Error>
+		<Description>Rear calibration strip unusable</Description>
+	</x264>
+	<x264>
+		<Error>846.02</Error>
+		<Description>Front calibration strip too far left</Description>
+	</x264>
+	<x264>
+		<Error>846.03</Error>
+		<Description>Front calibration strip too far right</Description>
+	</x264>
+	<x264>
+		<Error>846.04</Error>
+		<Description>Front calibration strip has excessive skew</Description>
+	</x264>
+	<x264>
+		<Error>846.05</Error>
+		<Description>Front calibration strip has excessive bow</Description>
+	</x264>
+	<x264>
+		<Error>846.06</Error>
+		<Description>Front calibration strip has excessive dark area: front excessive variability for Mono, Red, Green, or Blue.</Description>
+	</x264>
+	<x264>
+		<Error>846.07</Error>
+		<Description>Front magnification exceeds limits: rear excessive variability for Mono, Red, Green, or Blue.</Description>
+	</x264>
+	<x264>
+		<Error>847</Error>
+		<Description>Modem failure: the Configuration ID bit that describesthe device’s modem doesn’t match the actual modem installed in the device.</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>847.01</Error>
+		<Description>Fax storage: the amount of flash storage available on the device is too small. Note: The NAND Flash partitioncan shrink as bit failures cause blocks to be invalidated.</Description>
+	</x264>
+	<x264>
+		<Error>847.02</Error>
+		<Description>Fax storage: the device’s flash partition is invalid or unavailable.</Description>
+	</x264>
+	<x264>
+		<Error>848.01</Error>
+		<Description>Modem/Config ID mismatch: a device has a modem installed, but its Configuration ID indicates that a modem shouldn’t be present.</Description>
+	</x264>
+	<x264>
+		<Error>849.01</Error>
+		<Description>HD/Config ID mismatch: a device has a hard drive installed, but its Configuration ID indicates that a hard drive shouldn’t be present.</Description>
+	</x264>
+	<x264>
+		<Error>Engine software service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>902.xx</Error>
+		<Description>Engine software error</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>903.xx</Error>
+		<Description>Paperport link driver error</Description>
+	</x264>
+	<x264>
+		<Error>904.xx</Error>
+		<Description>Interface violation by RIP</Description>
+	</x264>
+	<x264>
+		<Error>905.xx</Error>
+		<Description>Interface violation by paperport device</Description>
+	</x264>
+	<x264>
+		<Error>906.xx</Error>
+		<Description>RIP interface drive error</Description>
+	</x264>
+	<x264>
+		<Error>DC pick motor errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>910.xx</Error>
+		<Description>DC pick motor stall</Description>
+		<Action/>
+	</x264>
+	<x264>
+		<Error>911.xx</Error>
+		<Description>DC pick motor excessive PWM</Description>
+	</x264>
+	<x264>
+		<Error>912.xx</Error>
+		<Description>DC pick motor below speed</Description>
+	</x264>
+	<x264>
+		<Error>913.xx</Error>
+		<Description>DC pick motor over speed</Description>
+	</x264>
+	<x264>
+		<Error>914</Error>
+		<Description>DC pick motor error</Description>
+	</x264>
+	<x264>
+		<Error>914.01</Error>
+		<Description>Lost encoder feedback</Description>
+	</x264>
+	<x264>
+		<Error>Transfer service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>917.xx</Error>
+		<Description>Transfer service error</Description>
+		<Action>Replace the transfer roll. See“Transfer roll service check” on page 2-43.</Action>
+	</x264>
+	<x264>
+		<Error>Fuser service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>920</Error>
+		<Description>Under temperature during steady state control.</Description>
+		<Action>Replace the fuser. See“Fuser service check” on page 2-29.</Action>
+	</x264>
+	<x264>
+		<Error>921</Error>
+		<Description>Under temperature during standby control.</Description>
+	</x264>
+	<x264>
+		<Error>922</Error>
+		<Description>Fuser failed to ramp to target temperature</Description>
+	</x264>
+	<x264>
+		<Error>923</Error>
+		<Description>Fuser is over temperature.</Description>
+	</x264>
+	<x264>
+		<Error>924</Error>
+		<Description>Open thermistor check.</Description>
+	</x264>
+	<x264>
+		<Error>925.xx</Error>
+		<Description>Wrong fuser installed. The fuser type stored in the cartridge ID does not match the actual fuser installed inthe printer.</Description>
+	</x264>
+	<x264>
+		<Error>Fan service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>927</Error>
+		<Description>Service fan error</Description>
+		<Action>Replace the fan. See“Cooling fan service check” on page 2-27.</Action>
+	</x264>
+	<x264>
+		<Error>Toner service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>929</Error>
+		<Description>Toner sensor error</Description>
+		<Action>Remove the toner cartridge, and shake it Try a different toner cartridge, if possible. If the error persists, then replace the toner level sensor. See“Toner level sensor removal” on page 4-75.</Action>
+	</x264>
+	<x264>
+		<Error>929.01</Error>
+		<Description>No home window</Description>
+	</x264>
+	<x264>
+		<Error>929.02</Error>
+		<Description>No sensor transition (closed)</Description>
+	</x264>
+	<x264>
+		<Error>929.03</Error>
+		<Description>No sensor transition (open)</Description>
+	</x264>
+	<x264>
+		<Error>Printhead service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>930.xx</Error>
+		<Description>Wrong printhead installed</Description>
+		<Action>Replace the printhead. See“Printhead service check” on page 2-43.</Action>
+	</x264>
+	<x264>
+		<Error>931.xx</Error>
+		<Description>No first hsync</Description>
+	</x264>
+	<x264>
+		<Error>932.xx</Error>
+		<Description>Lost hsyncs</Description>
+	</x264>
+	<x264>
+		<Error>933.xx</Error>
+		<Description>Mirror motor locked: No hsync received</Description>
+	</x264>
+	<x264>
+		<Error>935.xx</Error>
+		<Description>Motor unable to reach operating speed</Description>
+	</x264>
+	<x264>
+		<Error>Transport motor service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>936.xx</Error>
+		<Description>Transport motor initial lock failure</Description>
+		<Action>Replace the main motor gear drive. See“Main motor service check” on page 2-30.</Action>
+	</x264>
+	<x264>
+		<Error>937</Error>
+		<Description>Main transport motor lost lock</Description>
+	</x264>
+	<x264>
+		<Error>Power supply service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>940</Error>
+		<Description>LVPS service error</Description>
+		<Action>Replace the LVPS/HVPS. See“LVPS/HVPS service check” on page 2-29.</Action>
+	</x264>
+	<x264>
+		<Error>Controller board and operator panel service errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>948.xx</Error>
+		<Description>Failed engine board</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>949.xx</Error>
+	</x264>
+	<x264>
+		<Error>950.xx</Error>
+		<Description>Mismatch between EEPROM and mirror memoryNote:A new controller board or operator panel has been installed, and has not been properly prepared for thisuse. Install a new note. Do not install both the controller board and the operator panel at the same time without a POR in between.</Description>
+		<Action>Install a new controller bored or operator panel. See“Controller board service check” on page 2-26or“Operator panel service check” on page 2-31.</Action>
+	</x264>
+	<x264>
+		<Error>951.xx</Error>
+		<Description>Error with secure NVRAM on the controller board</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>952.xx</Error>
+		<Description>A recoverable MVRAM Cyclic Redundancy Check error occurred.</Description>
+		<Action>Performing POR will clear this error.</Action>
+	</x264>
+	<x264>
+		<Error>953.xx</Error>
+		<Description>NVRAM chip failure with mirror</Description>
+		<Action>Replace the operator panel. See“Operator panel service check” on page 2-31.</Action>
+	</x264>
+	<x264>
+		<Error>954.xx</Error>
+		<Description>NVRAM chip failure with system part.</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>955.xx</Error>
+		<Description>The code ROM or NAND flash failed the Cyclic Redundancy Check or the NAND experienced an uncorrectible multi-bit failure.</Description>
+	</x264>
+	<x264>
+		<Error>956</Error>
+		<Description>RIP card failure: processor failure</Description>
+	</x264>
+	<x264>
+		<Error>956.01</Error>
+		<Description>Processor overtemp</Description>
+	</x264>
+	<x264>
+		<Error>957.xx</Error>
+		<Description>RIP card failure: ASIC failure</Description>
+	</x264>
+	<x264>
+		<Error>958.xx</Error>
+		<Description>Printer has performed more than 100 “shift and reflash” operations as a result of ECC bit corrections</Description>
+	</x264>
+	<x264>
+		<Error>Firmware or controller board errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>959.01</Error>
+		<Description>Controller verification failure of boot code</Description>
+		<Action>Call the next level of support to update the firmware, or replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>959.02</Error>
+		<Description>Failure to authenticate Signature Verification Code</Description>
+	</x264>
+	<x264>
+		<Error>959.03</Error>
+		<Description>Signature Verification Code failed to authenticate a code partition.</Description>
+		<Action>Update firmware and call the next level ofsupport, or replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>959.04</Error>
+		<Description>Jump to unverified address</Description>
+	</x264>
+	<x264>
+		<Error>959.05</Error>
+		<Description>Unknown boot failure</Description>
+	</x264>
+	<x264>
+		<Error>959.2</Error>
+		<Description>Chipset hardware failure</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>959.21</Error>
+		<Description>Chipset did not respond to command request.</Description>
+	</x264>
+	<x264>
+		<Error>959.22</Error>
+		<Description>Challenge secret failure</Description>
+	</x264>
+	<x264>
+		<Error>959.23</Error>
+		<Description>Self test failed during initialization.</Description>
+	</x264>
+	<x264>
+		<Error>959.24</Error>
+		<Description>EEPROM retention error</Description>
+	</x264>
+	<x264>
+		<Error>959.25</Error>
+		<Description>Insufficient device space during HW prog</Description>
+	</x264>
+	<x264>
+		<Error>959.26</Error>
+		<Description>Incremental counter reset exceeds maximum value</Description>
+	</x264>
+	<x264>
+		<Error>959.27</Error>
+		<Description>Increment count failed due to max value limit</Description>
+	</x264>
+	<x264>
+		<Error>959.28</Error>
+		<Description>Invalid SP memory configuration</Description>
+	</x264>
+	<x264>
+		<Error>Memory and emulation errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>960.xx</Error>
+		<Description>RAM memory error: RAM soldered on the controllerboard is bad</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-26.</Action>
+	</x264>
+	<x264>
+		<Error>961.xx</Error>
+		<Description>RAM memory error: memory card in slot is bad.</Description>
+		<Action>Replace the memory card.</Action>
+	</x264>
+	<x264>
+		<Error>964.xx</Error>
+		<Description>Download Emulation Cyclic Redundancy Check Error:checksum failure detected in the emulation header or emulation file.</Description>
+		<Action>Disable the Download Emulation. Program the download emulation into the firmware card again. If this does not resolve the problem, then replace the firmware card and download the emulation again.</Action>
+	</x264>
+	<x264>
+		<Error>Network errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>975.xx</Error>
+		<Description>Unrecognizable network</Description>
+		<Action>Call the next level of support.</Action>
+	</x264>
+	<x264>
+		<Error>976.xx</Error>
+		<Description>Unrecoverable software error in network port</Description>
+	</x264>
+	<x264>
+		<Error>978.xx</Error>
+		<Description>Bad checksum while programming network port</Description>
+		<Action>Call the next level of support.</Action>
+	</x264>
+	<x264>
+		<Error>979.xx</Error>
+		<Description>Flash parts failed while programing network port</Description>
+	</x264>
+	<x264>
+		<Error>Other errors</Error>
+		<Description/>
+	</x264>
+	<x264>
+		<Error>980.xx</Error>
+		<Description>Engine experiencing unreliable communication with the specified device</Description>
+		<Action>Call the next level of support.</Action>
+	</x264>
+	<x264>
+		<Error>981.xx</Error>
+		<Description>Engine protocol violation detected by the specifieddevice</Description>
+	</x264>
+	<x264>
+		<Error>982.xx</Error>
+		<Description>Communications error detected by the specified device</Description>
+	</x264>
+	<x264>
+		<Error>983.xx</Error>
+		<Description>Invalid command received by the specified device</Description>
+	</x264>
+	<x264>
+		<Error>984.xx</Error>
+		<Description>Invalid command parameter received by the specifieddevice</Description>
+	</x264>
+	<x264>
+		<Error>990.xx</Error>
+		<Description>An equipment check condition has occurred in the specified device, but the device is unable to identify the exact component failure.</Description>
+	</x264>
+	<x264>
+		<Error>991.xx</Error>
+		<Description>The specified device has detected an equipment check in its system card.</Description>
+	</x264>
+	<x264/>
+</lexmark>

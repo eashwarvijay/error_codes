@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Mobile Web App</title>
+<link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile.structure-1.3.2.min.css">
+<script src="jquery-mobile/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.2.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="xmls/ajas.css">
+<script type="text/javascript" src="xmls/ajaxall.js"></script>
+<link rel="stylesheet" type="text/css" href="themes/codes.css">
+<!-- This reference to phonegap.js will allow for code hints as long as the current site has been configured as a mobile application. 
+	 To configure the site as a mobile application, go to Site -> Mobile Applications -> Configure Application Framework... -->
+<script src="/phonegap.js" type="text/javascript"></script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="home" data-theme="b">
+	<div data-role="header">
+		<h1>ERROR CODES</h1>
+	</div>
+	<div data-role="content">
+	  <p>&nbsp;</p>  <p align="center"><a href="#cano" data-role="button" data-inline="true">Canon</a></p>
+       <p align="center">  <a href="#lexmark" data-role="button" data-inline="true">Lexmark</a></p>
+	  <p>&nbsp;</p>
+    </div>
+	<div data-role="footer" data-position="fixed">
+		<p align="center">VISHAL SOLUTIONS</p>
+	</div>
+</div>
+
+<div data-role="page" id="cano" data-theme="a">
+ <!-- Side Navigation Panel -->
+    <div data-role="panel" id="sideNav" data-position="left" data-display="push">
+       <ul id="sidePanel" class="clleft">
+        <li><a href="#home"> Home</a></li>
+        <li id="comb"><a href="#">Common Codes  </a></li>
+        <li id="215b"><a href="#"> Gp215 </a></li>
+        <li id="405b"><a href="#"> Gp405 </a></li>
+      </ul>
+       </div>
+    <!-- End Side Navigation -->
+	<div data-role="header">
+    
+      <a href="#sideNav" id="navIcon">Models </a>
+		<h1>Canon</h1>
+	</div>
+	<div data-role="content">	
+  <div id="canon">
+    <h1>Please select models </h1>
+  </div>	
+</div>
+</div>
+<div data-role="page" id="lexmark" data-theme="a">
+ <!-- Side Navigation Panel -->
+    <div data-role="panel" id="sideNav" data-position="left" data-display="push">
+       <ul id="sidePanel" class="clleft">
+        <li><a href="#home"> Home</a></li>
+        <li id="203b"><a href="#">X203/204   </a></li>
+        <li id="264b"><a href="#"> X264/364 </a></li>
+        <li id="466b"><a href="#"> X463/466 </a></li>
+                <li id="543b"><a href="#"> X543 </a></li>
+        <li id="654b"><a href="#"> X654 </a></li>
+
+      </ul>
+       </div>
+    <!-- End Side Navigation -->
+	<div data-role="header">      <a href="#sideNav" id="navIcon">Models </a>
+
+		<h1>Lexmark</h1>
+	</div>
+	<div data-role="content">	
+
+  <div id="dis">
+      <h1>Please select models </h1>
+
+  </div>	
+	</div>
+</div>
+
+</body>
+</html>

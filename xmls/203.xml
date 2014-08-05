@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lexmark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<x203n>
+		<Error>Error</Error>
+		<Description>Description</Description>
+		<Action>Action</Action>
+	</x203n>
+	<x203n>
+		<Error>8XX Scanner service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>840.01 Scanner disabled</Error>
+		<Description>The scanner is disabled and can’t be used.</Description>
+		<Action>Enter the configuration menu, and re-enable the scanner module. See“840.xx service check” on page 2-41</Action>
+	</x203n>
+	<x203n>
+		<Error>840.02 Scanner auto disabled</Error>
+		<Description>The scanner is disabled and can’t be used.</Description>
+		<Action>This message is posted when the MFP PORs.Enter the configuration menu, and re-enable the scanner module. See“840.xx service check” on page 2-41</Action>
+	</x203n>
+	<x203n>
+		<Error>841</Error>
+		<Description>Image Pipeline</Description>
+		<Action>Image pipeline ASIC. See“Flatbed service check” on page 2-24.</Action>
+	</x203n>
+	<x203n>
+		<Error>841.01</Error>
+		<Description>Service image processing unit: AFE register mismatch</Description>
+	</x203n>
+	<x203n>
+		<Error>841.02</Error>
+	</x203n>
+	<x203n>
+		<Error>841.03</Error>
+		<Description>Service image processing unit: SCNCHN DMA</Description>
+	</x203n>
+	<x203n>
+		<Error>841.04</Error>
+		<Description>Service image processing unit: new line too soon interrupt</Description>
+	</x203n>
+	<x203n>
+		<Error>841.07</Error>
+		<Description>Service image processing unit: tonal data overrun</Description>
+	</x203n>
+	<x203n>
+		<Error>841.09</Error>
+		<Description>Service image processing unit: image processing too slow</Description>
+	</x203n>
+	<x203n>
+		<Error>841.96</Error>
+		<Description>System time out: SIZAR out of band interrupt</Description>
+	</x203n>
+	<x203n>
+		<Error>841.97</Error>
+		<Description>Service image processing unit: output data uncollected</Description>
+	</x203n>
+	<x203n>
+		<Error>841.98</Error>
+		<Description>Service image processing unit: SCNCHN DMA underrun</Description>
+	</x203n>
+	<x203n>
+		<Error>841.99</Error>
+		<Description>Service image processing unit interrupt handler delayed crash</Description>
+	</x203n>
+	<x203n>
+		<Error>842</Error>
+		<Description>Scanner Failure. Communication failure</Description>
+	</x203n>
+	<x203n>
+		<Error>843</Error>
+		<Description>Scanner Failure: carriage failed to home or move todesired position</Description>
+	</x203n>
+	<x203n>
+		<Error>843.01</Error>
+		<Description>Scanner Failure</Description>
+		<Action>ADF mechanical failure. Go to“ADF service check” on page 2-23</Action>
+	</x203n>
+	<x203n>
+		<Error>843.02</Error>
+		<Description>Scanner Failure</Description>
+		<Action>General mechanical failure. Go to“ADF service check” on page 2-23</Action>
+	</x203n>
+	<x203n>
+		<Error>843.03</Error>
+		<Description>Scanner Failure</Description>
+		<Action>Pick Roller engage failure. Go to“ADF service check” on page 2-23</Action>
+	</x203n>
+	<x203n>
+		<Error>843.04</Error>
+		<Description>Scanner Failure</Description>
+		<Action>Pick roller disengage failure. Go to“ADF service check” on page 2-23</Action>
+	</x203n>
+	<x203n>
+		<Error>844.yy</Error>
+		<Description>Scanner Failure</Description>
+		<Action>Lamp failure. See“Flatbed service check” on page 2-24.</Action>
+	</x203n>
+	<x203n>
+		<Error>844</Error>
+		<Description>Front scan module output level error</Description>
+		<Action>See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>844.01</Error>
+		<Description>Rear scan module output level error</Description>
+	</x203n>
+	<x203n>
+		<Error>844.02</Error>
+		<Description>Front scan module lamp level too low</Description>
+		<Action>Front Mono channel, Front Color channels, Front Red channel, Front Green channel, and/or FrontBlue channel is detected to have low lamp level.See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>844.03</Error>
+		<Description>Rear scan module lamp level too low</Description>
+		<Action>Rear Mono channel, Rear Color channels, Rear Red channel, Rear Green channel, and/or RearBlue channel is detected to have low lamp level.See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>845.yy</Error>
+		<Description>Scanner Failure</Description>
+		<Action>CIS failure See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>845</Error>
+		<Description>Front scan module cable failure or SCC card failure</Description>
+		<Action>CIS channel failure. Check each channel(mono,R, G, B) for identical values indicating bad cable and/or SCC card. Excessive noise test for the dark data indicating some sort of CIS or analog electronics issue on that channel or channels. See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>845.01</Error>
+		<Description>Rear scan module cable failure or SCC card failure</Description>
+		<Action>CIS channel failure. Check each channel(mono,R, G, B) for identical values indicating bad cable and/or SCC card. Excessive noise test for the dark data indicating some sort of CIS or analog electronics issue on that channel or channels. See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>845.02</Error>
+		<Description>Cable / SCC Failure</Description>
+		<Action>Front scan module connector or cable failure See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>845.03</Error>
+		<Description>Cable / SCC Failure</Description>
+		<Action>Rear scan module connector or cable failure See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>845.04</Error>
+		<Description>Cable Failure</Description>
+		<Action>The connector cable is defective. See“Flatbed service check” on page 2-24.</Action>
+	</x203n>
+	<x203n>
+		<Error>846.07</Error>
+		<Description>Front magnification exceeds limits</Description>
+		<Action>Rear excessive variability for Mono, Red, Green,or Blue. See“Flatbed service check” on page 2-24</Action>
+	</x203n>
+	<x203n>
+		<Error>847</Error>
+		<Description>Modem Failure</Description>
+		<Action>The Configuration ID bit that describes the device’s modem doesn’t match the actual modem installed in the device.</Action>
+	</x203n>
+	<x203n>
+		<Error>847.01</Error>
+		<Description>Fax Storage</Description>
+		<Action>The amount of flash storage available on the device is too small. Note: The NAND Flash partition can shrink as bit failures cause blocks tobe invalidated. Go to“Format Fax Storage” on page 3-19. If the issue is not fixed, replace the controller board. Go to“Controller card removal” on page 4-13.</Action>
+	</x203n>
+	<x203n>
+		<Error>847.02</Error>
+		<Description>Fax Storage</Description>
+		<Action>The devices’ flash partition is invalid orunavailable. Go to“Format Fax Storage” on page 3-19. If the issue is not fixed, replace the controller board. Go to“Controller card removal” on page 4-13.</Action>
+	</x203n>
+	<x203n>
+		<Error>848.01</Error>
+		<Description>Modem/Config ID Mismatch</Description>
+		<Action>A device has a modem installed, but its Configuration ID indicates that a modemshouldn’t be present.</Action>
+	</x203n>
+	<x203n>
+		<Error>Engine software service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>902.xx</Error>
+		<Description>Engine software error</Description>
+		<Action>Unrecoverable engine software error. Rest the MFP (POR). If the problem reoccurs, replace thecontroller board. See“Controller card service check” on page 2-25</Action>
+	</x203n>
+	<x203n>
+		<Error>903.xx</Error>
+		<Description>Paperport link driver error</Description>
+	</x203n>
+	<x203n>
+		<Error>904.xx</Error>
+		<Description>Interface violation by RIP</Description>
+	</x203n>
+	<x203n>
+		<Error>905.xx</Error>
+		<Description>Interface violation by paperport device</Description>
+	</x203n>
+	<x203n>
+		<Error>906.xx</Error>
+		<Description>RIP interface drive error</Description>
+	</x203n>
+	<x203n>
+		<Error>DC pick motor errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>910.xx</Error>
+		<Description>DC pick motor stall</Description>
+		<Action>Verify the motor is properly connected to the controller card.</Action>
+	</x203n>
+	<x203n>
+		<Error>911.xx</Error>
+		<Description>DC pick motor excessive PWM</Description>
+	</x203n>
+	<x203n>
+		<Error>912.xx</Error>
+		<Description>DC pick motor below speed</Description>
+	</x203n>
+	<x203n>
+		<Error>913.xx</Error>
+		<Description>DC pick motor over speed</Description>
+	</x203n>
+	<x203n>
+		<Error>914</Error>
+		<Description>DC pick motor error</Description>
+	</x203n>
+	<x203n>
+		<Error>914.01</Error>
+		<Description>Lost encoder feedback</Description>
+	</x203n>
+	<x203n>
+		<Error>Transfer service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>917.xx</Error>
+		<Description>Transfer service error</Description>
+		<Action>Replace the transfer roll. See“Transfer roll service check” on page 2-44.</Action>
+	</x203n>
+	<x203n>
+		<Error>Fuser service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>920</Error>
+		<Description>Under temperature during steady state control.</Description>
+		<Action>Replace the fuser. See“Fuser service check” on page 2-27.</Action>
+	</x203n>
+	<x203n>
+		<Error>921</Error>
+		<Description>Under temperature during standby control.</Description>
+	</x203n>
+	<x203n>
+		<Error>922</Error>
+		<Description>Fuser failed to ramp to target temperature</Description>
+	</x203n>
+	<x203n>
+		<Error>923</Error>
+		<Description>Fuser is over temperature.</Description>
+	</x203n>
+	<x203n>
+		<Error>924</Error>
+		<Description>Open thermistor check.</Description>
+	</x203n>
+	<x203n>
+		<Error>925.xx</Error>
+		<Description>Wrong fuser installed. The fuser type stored in the cartridge ID does not match the actual fuser installed inthe printer.</Description>
+	</x203n>
+	<x203n>
+		<Error>Fan service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>927</Error>
+		<Description>Service fan error</Description>
+		<Action>Replace the fan. See“Cooling fan servicecheck” on page 2-24.</Action>
+	</x203n>
+	<x203n>
+		<Error>Printhead service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>930.xx</Error>
+		<Description>Wrong printhead installed</Description>
+		<Action>Replace the printhead. See“Printhead service check” on page 2-32.</Action>
+	</x203n>
+	<x203n>
+		<Error>931.xx</Error>
+		<Description>No first hsync</Description>
+	</x203n>
+	<x203n>
+		<Error>Replace the printhead. See“Printhead service check” on page 2-32.</Error>
+	</x203n>
+	<x203n>
+		<Error>932.xx</Error>
+		<Description>Lost hsyncs</Description>
+	</x203n>
+	<x203n>
+		<Error>933.xx</Error>
+		<Description>Mirror motor locked: No hsync received</Description>
+	</x203n>
+	<x203n>
+		<Error>935.xx</Error>
+		<Description>Motor unable to reach operating speed</Description>
+	</x203n>
+	<x203n>
+		<Error>Transport motor service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>936.xx</Error>
+		<Description>Transport motor initial lock failure</Description>
+		<Action>Replace the main motor gear drive. See“Main motor service check” on page 2-29</Action>
+	</x203n>
+	<x203n>
+		<Error>937</Error>
+		<Description>Main transport motor lost lock</Description>
+		<Action>Replace the main motor gear drive. See“Main motor service check” on page 2-29</Action>
+	</x203n>
+	<x203n>
+		<Error>Power supply service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>940</Error>
+		<Description>LVPS service error</Description>
+		<Action>Replace the LVPS/HVPS. See“Hot fuser service check” on page 2-28.</Action>
+	</x203n>
+	<x203n>
+		<Error>Controller board and operator panel service errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>948.xx</Error>
+		<Description>Failed controller board</Description>
+		<Action>Replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>949.xx</Error>
+	</x203n>
+	<x203n>
+		<Error>950.xx</Error>
+		<Description>Mismatch between EEPROM and mirror memoryNote:A new controller board or operator panel has been installed, and has not been properly prepared for thisuse. Install a new note. Do not install both the controller board and the operator panel at the same time without a POR in between.</Description>
+		<Action>Install a new controller bored or operator panel.See“Controller card service check” on page 2-25or“Operator panel service check” on page 2-31.</Action>
+	</x203n>
+	<x203n>
+		<Error>955.xx</Error>
+		<Description>The code ROM or NAND flash failed the Cyclic Redundancy Check or the NAND experienced anuncorrectible multi-bit failure.</Description>
+		<Action>Replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>956</Error>
+		<Description>RIP card failure: processor failure</Description>
+	</x203n>
+	<x203n>
+		<Error>956.01</Error>
+		<Description>Processor overtemp</Description>
+	</x203n>
+	<x203n>
+		<Error>957.xx</Error>
+		<Description>RIP card failure: ASIC failure</Description>
+	</x203n>
+	<x203n>
+		<Error>958.xx</Error>
+		<Description>Printer has performed more than 100 “shift and reflash”operations as a result of ECC bit corrections</Description>
+	</x203n>
+	<x203n>
+		<Error>Firmware or controller board errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>959.02</Error>
+		<Description>Failure to authenticate Signature Verification Code</Description>
+		<Action>Call the next level of support to update the firmware, or replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>959.03</Error>
+		<Description>Signature Verification Code failed to authenticate a codepartition.</Description>
+		<Action>Update firmware and call the next level ofsupport, or replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>959.04</Error>
+		<Description>Jump to unverified address</Description>
+	</x203n>
+	<x203n>
+		<Error>959.05</Error>
+		<Description>Unknown boot failure</Description>
+		<Action>Update firmware and call the next level ofsupport, or replace the controller board. See“Controller card service check” on page 2-25</Action>
+	</x203n>
+	<x203n>
+		<Error>959.2</Error>
+		<Description>Hardware failure</Description>
+		<Action>Replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>959.21</Error>
+		<Description>Controller did not respond to command request.</Description>
+	</x203n>
+	<x203n>
+		<Error>959.23</Error>
+		<Description>Self test failed during initialization.</Description>
+		<Action>Replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>959.24</Error>
+		<Description>EEPROM retention error</Description>
+	</x203n>
+	<x203n>
+		<Error>959.25</Error>
+		<Description>Insufficient device space during HW prog</Description>
+	</x203n>
+	<x203n>
+		<Error>959.26</Error>
+		<Description>Incremental counter reset exceeds maximum value</Description>
+	</x203n>
+	<x203n>
+		<Error>959.27</Error>
+		<Description>Increment count failed due to max value limit</Description>
+	</x203n>
+	<x203n>
+		<Error>959.28</Error>
+		<Description>Invalid SP memory configuration</Description>
+	</x203n>
+	<x203n>
+		<Error>Memory and emulation errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>960.xx</Error>
+		<Description>RAM memory error: RAM soldered on the controllerboard is bad</Description>
+		<Action>Replace the controller board. See“Controller card service check” on page 2-25.</Action>
+	</x203n>
+	<x203n>
+		<Error>964.xx</Error>
+		<Description>Download Emulation Cyclic Redundancy Check Error:checksum failure detected in the emulation header or emulation file.</Description>
+		<Action>Disable the Download Emulation. Program the download emulation into the firmware card again.If this does not resolve the problem, then replace the firmware card and download the emulation again.</Action>
+	</x203n>
+	<x203n>
+		<Error>Network errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>975.xx</Error>
+		<Description>Unrecognizable network</Description>
+		<Action>Call the next level of support.</Action>
+	</x203n>
+	<x203n>
+		<Error>976.xx</Error>
+		<Description>Unrecoverable software error in network port</Description>
+	</x203n>
+	<x203n>
+		<Error>978.xx</Error>
+		<Description>Bad checksum while programming network port</Description>
+	</x203n>
+	<x203n>
+		<Error>979.xx</Error>
+		<Description>Flash parts failed while programing network port</Description>
+	</x203n>
+	<x203n>
+		<Error>Other errors</Error>
+		<Description/>
+	</x203n>
+	<x203n>
+		<Error>980.xx</Error>
+		<Description>Engine experiencing unreliable communication with the specified device</Description>
+		<Action>Call the next level of support.</Action>
+	</x203n>
+	<x203n>
+		<Error>981.xx</Error>
+		<Description>Engine protocol violation detected by the specifieddevice</Description>
+	</x203n>
+	<x203n>
+		<Error>982.xx</Error>
+		<Description>Communications error detected by the specified device</Description>
+	</x203n>
+	<x203n>
+		<Error>983.xx</Error>
+		<Description>Invalid command received by the specified device</Description>
+	</x203n>
+	<x203n>
+		<Error>984.xx</Error>
+		<Description>Invalid command parameter received by the specifieddevice</Description>
+		<Action>Call the next level of support.</Action>
+	</x203n>
+	<x203n>
+		<Error>990.xx</Error>
+		<Description>An equipment check condition has occurred in the specified device, but the device is unable to identify theexact component failure.</Description>
+	</x203n>
+	<x203n>
+		<Error>991.xx</Error>
+		<Description>The specified device has detected an equipment checkin its system card.</Description>
+	</x203n>
+</lexmark>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lexmark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<x466>
+		<Error>8XX Scanner service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>840.01 Scanner disabled</Error>
+		<Description>The scanner is disabled and can’t be used.</Description>
+		<Action>Enter the configuration menu, and re-enable the scanner module. Go to“840.xx service check” on page 2-55</Action>
+	</x466>
+	<x466>
+		<Error>840.02 Scanner auto disabled</Error>
+		<Description>The scanner is disabled and can’t be used.</Description>
+		<Action>This message is posted when the MFP PORs. Enter the configuration menu, and re-enable the scanner module. Go to“840.xx service check” on page 2-55</Action>
+	</x466>
+	<x466>
+		<Error>841</Error>
+		<Description>Image Pipeline</Description>
+		<Action>Image pipeline ASIC. Go to“CCD service check” on page 2-57. Also,Go to“Flatbed home position service check” on page 2-58.</Action>
+	</x466>
+	<x466>
+		<Error>841.96</Error>
+		<Description>SIZAR out of band interrupt</Description>
+	</x466>
+	<x466>
+		<Error>842</Error>
+		<Description>Communication Failure</Description>
+		<Action>Communication failure. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>843</Error>
+		<Description>Scanner Failure - Carriage failed to move to Home of desired position</Description>
+		<Action>Carriage mechanical failure.Go to“Flatbed motor service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>843.01</Error>
+		<Description>Scanner Failure</Description>
+		<Action>ADF mechanical failure. Go to“ADF paper jam service check” on page 2-60</Action>
+	</x466>
+	<x466>
+		<Error>843.02</Error>
+		<Description>Scanner Failure</Description>
+		<Action>General mechanical failure</Action>
+	</x466>
+	<x466>
+		<Error>843.03</Error>
+		<Description>Scanner Failure</Description>
+		<Action>Pick Roller engage failure</Action>
+	</x466>
+	<x466>
+		<Error>843.04</Error>
+		<Description>Scanner Failure</Description>
+		<Action>Pick roller disengage failure</Action>
+	</x466>
+	<x466>
+		<Error>844.yy</Error>
+		<Description>Scanner Failure</Description>
+		<Action>Lamp failure. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>844</Error>
+		<Description>Front scan module output level error</Description>
+		<Action>Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>844.01</Error>
+		<Description>Rear scan module output level error</Description>
+	</x466>
+	<x466>
+		<Error>844.02</Error>
+		<Description>Front scan module lamp level too low</Description>
+		<Action>Front Mono channel, Front Color channels, Front Red channel, Front Green channel, and/or Front Blue channel is detected to have low lamp level. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>844.03</Error>
+		<Description>Rear scan module lamp level too low</Description>
+		<Action>Rear Mono channel, Rear Color channels, Rear Red channel, Rear Green channel, and/or Rear Blue channel is detected to have low lamp level. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>845.yy</Error>
+		<Description>Scanner Failure</Description>
+		<Action>CCD failure Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>845</Error>
+		<Description>Front scan module cable failure or SCC card failure</Description>
+		<Action>CCD channel failure. Check each channel(mono, R, G, B) for identical values indicating bad cable and/or SCC card. Excessive noise test for the dark data indicating some sort of CCD or analog electronics issue on that channel or channels. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>845.01</Error>
+		<Description>Rear scan module cable failure or SCC card failure</Description>
+		<Action>CCD channel failure. Check each channel(mono, R, G, B) for identical values indicating bad cable and/or SCC card. Excessive noise test for the dark data indicating some sort of CCD or analog electronics issue on that channel or channels. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>845.02</Error>
+		<Description>Cable / SCC Failure</Description>
+		<Action>Front scan module connector or cable failure Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>845.03</Error>
+		<Description>Cable / SCC Failure</Description>
+		<Action>Rear scan module connector or cable failure Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>845.yy</Error>
+		<Description>CCD Failure</Description>
+		<Action>The CCD is defective. Go to“CCD service check” on page 2-57.</Action>
+	</x466>
+	<x466>
+		<Error>846</Error>
+		<Description>Front calibration strip unusable</Description>
+		<Action>Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>846.01</Error>
+		<Description>Rear calibration strip unusable</Description>
+	</x466>
+	<x466>
+		<Error>846.02</Error>
+		<Description>Front calibration strip too far left</Description>
+		<Action>The font calibration strip is placed to high or to low. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>846.03</Error>
+		<Description>Front calibration strip too far right</Description>
+		<Action>Go to“CCD service check” on page 2-57.</Action>
+	</x466>
+	<x466>
+		<Error>846.04</Error>
+		<Description>Front calibration strip has excessive skew</Description>
+	</x466>
+	<x466>
+		<Error>846.05</Error>
+		<Description>Front calibration strip has excessive bow</Description>
+	</x466>
+	<x466>
+		<Error>846.06</Error>
+		<Description>Front calibration strip has excessive dark area</Description>
+		<Action>Front excessive variability for Mono, Red, Green, or Blue. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>846.07</Error>
+		<Description>Front magnification exceeds limits</Description>
+		<Action>Rear excessive variability for Mono, Red, Green, or Blue. Go to“CCD service check” on page 2-57</Action>
+	</x466>
+	<x466>
+		<Error>847</Error>
+		<Description>Modem Failure</Description>
+		<Action>The Configuration ID bit that describes the device’s modem doesn’t match the actual modem installed in the device.</Action>
+	</x466>
+	<x466>
+		<Error>847.01</Error>
+		<Description>Fax Storage</Description>
+		<Action>The amount of flash storage available on the device is too small. Note: The NAND Flash partition can shrink as bit failures cause blocks to be invalidated. Go to“Format Fax Storage” on page 3-34. If the issue is not fixed, replace the controller board. Go to“Controller board removal” on page 4-16.</Action>
+	</x466>
+	<x466>
+		<Error>847.02</Error>
+		<Description>Fax Storage</Description>
+		<Action>The devices’ flash partition is invalid or unavailable. Go to“Format Fax Storage” on page 3-34. If the issue is not fixed, replace the controller board. Go to“Controller board removal” on page 4-16.</Action>
+	</x466>
+	<x466>
+		<Error>848.01</Error>
+		<Description>Modem/Config ID Mismatch</Description>
+		<Action>A device has a modem installed, but its Configuration ID indicates that a modem shouldn’t be present.</Action>
+	</x466>
+	<x466>
+		<Error>849</Error>
+		<Description>HD/Config ID Mismatch</Description>
+		<Action>A device doesn’t have a hard drive installed, even though its Configuration ID indicates that a hard drive should be present.</Action>
+	</x466>
+	<x466>
+		<Error>849.01</Error>
+		<Description>HD/Config ID Mismatch</Description>
+		<Action>A device has a hard drive installed, but its Configuration ID indicates that a hard drive shouldn’t be present.</Action>
+	</x466>
+	<x466>
+		<Error>Engine software service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>900.xx</Error>
+		<Description>RIP software error</Description>
+		<Action>Turn off MFP for 10 seconds and restart. If error re-occurs, replace controller board.</Action>
+	</x466>
+	<x466>
+		<Error>902.xx</Error>
+		<Description>Engine software error</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-35</Action>
+	</x466>
+	<x466>
+		<Error>903.xx</Error>
+		<Description>Paperport link driver error</Description>
+	</x466>
+	<x466>
+		<Error>904.xx</Error>
+		<Description>Interface violation by RIP</Description>
+	</x466>
+	<x466>
+		<Error>905.xx</Error>
+		<Description>Interface violation by paperport device</Description>
+	</x466>
+	<x466>
+		<Error>906.xx</Error>
+		<Description>RIP interface drive error</Description>
+	</x466>
+	<x466>
+		<Error>DC pick motor errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>910.xx</Error>
+		<Description>DC pick motor stall</Description>
+		<Action/>
+	</x466>
+	<x466>
+		<Error>911.xx</Error>
+		<Description>DC pick motor excessive PWM</Description>
+		<Action/>
+	</x466>
+	<x466>
+		<Error>912.xx</Error>
+		<Description>DC pick motor below speed</Description>
+		<Action/>
+	</x466>
+	<x466>
+		<Error>913.xx</Error>
+		<Description>DC pick motor over speed</Description>
+		<Action/>
+	</x466>
+	<x466>
+		<Error>914</Error>
+		<Description>DC pick motor error</Description>
+		<Action/>
+	</x466>
+	<x466>
+		<Error>914.01</Error>
+		<Description>Lost encoder feedback</Description>
+		<Action/>
+	</x466>
+	<x466>
+		<Error>Transfer service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>917.xx</Error>
+		<Description>Transfer service error</Description>
+		<Action>Replace the transfer roll. See“Transfer roll service check” on page 2-54.</Action>
+	</x466>
+	<x466>
+		<Error>Fuser service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>920</Error>
+		<Description>Under temperature during steady state control.</Description>
+		<Action>Replace the fuser. See“Fuser service check” on page 2-39.</Action>
+	</x466>
+	<x466>
+		<Error>921</Error>
+		<Description>Under temperature during standby control.</Description>
+	</x466>
+	<x466>
+		<Error>922</Error>
+		<Description>Fuser failed to ramp to target temperature</Description>
+	</x466>
+	<x466>
+		<Error>923</Error>
+		<Description>Fuser is over temperature.</Description>
+	</x466>
+	<x466>
+		<Error>924</Error>
+		<Description>Open thermistor check.</Description>
+	</x466>
+	<x466>
+		<Error>925.xx</Error>
+		<Description>Wrong fuser installed. The fuser type stored in the cartridge ID does not match the actual fuser installed in the printer.</Description>
+	</x466>
+	<x466>
+		<Error>Fan service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>927</Error>
+		<Description>Service fan error</Description>
+		<Action>Replace the fan. See“Cooling fan service check” on page 2-37.</Action>
+	</x466>
+	<x466>
+		<Error>Toner service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>929</Error>
+		<Description>Toner sensor error</Description>
+		<Action>Remove the toner cartridge, and shake it Try a different toner cartridge, if possible. If the error persists, then replace the toner level sensor. See“Toner level sensor removal” on page 4-79.</Action>
+	</x466>
+	<x466>
+		<Error>929.01</Error>
+		<Description>No home window</Description>
+	</x466>
+	<x466>
+		<Error>929.02</Error>
+		<Description>No sensor transition (closed)</Description>
+	</x466>
+	<x466>
+		<Error>929.03</Error>
+		<Description>No sensor transition (open)</Description>
+	</x466>
+	<x466>
+		<Error>Printhead service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>930.xx</Error>
+		<Description>Wrong printhead installed</Description>
+		<Action>Replace the printhead. See“Printhead service check” on page 2-54.</Action>
+	</x466>
+	<x466>
+		<Error>931.xx</Error>
+		<Description>No first hsync</Description>
+	</x466>
+	<x466>
+		<Error/>
+		<Description/>
+		<Action>Replace the printhead. See“Printhead service check” on page 2-54.</Action>
+	</x466>
+	<x466>
+		<Error>932.xx</Error>
+		<Description>Lost hsyncs</Description>
+	</x466>
+	<x466>
+		<Error>933.xx</Error>
+		<Description>Mirror motor locked: No hsync received</Description>
+	</x466>
+	<x466>
+		<Error>935.xx</Error>
+		<Description>Motor unable to reach operating speed</Description>
+	</x466>
+	<x466>
+		<Error>Transport motor service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>936.xx</Error>
+		<Description>Transport motor initial lock failure</Description>
+		<Action>Replace the main motor gear drive. See“Main motor service check” on page 2-40</Action>
+	</x466>
+	<x466>
+		<Error>937</Error>
+		<Description>Main transport motor lost lock</Description>
+		<Action>Replace the main motor gear drive. See“Main motor service check” on page 2-40</Action>
+	</x466>
+	<x466>
+		<Error>Power supply service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>940</Error>
+		<Description>LVPS service error</Description>
+		<Action>Replace the LVPS/HVPS. See“LVPS/HVPS service check” on page 2-39.</Action>
+	</x466>
+	<x466>
+		<Error>Controller board and operator panel service errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>948.xx</Error>
+		<Description>Failed engine board</Description>
+		<Action>Replace the controller board. See“Engine board service check” on page 2-36.</Action>
+	</x466>
+	<x466>
+		<Error>949.xx</Error>
+	</x466>
+	<x466>
+		<Error>950.xx</Error>
+		<Description>Mismatch between EEPROM and mirror memoryNote:A new controller board or operator panel has been installed, and has not been properly prepared for this use. Install a new note. Do not install both the controller board and the operator panel at the same time without a POR in between.</Description>
+		<Action>Install a new controller bored or operator panel. See“Engine board service check” on page 2-36or“Operator panel service check” on page 2-43.</Action>
+	</x466>
+	<x466>
+		<Error>951.xx</Error>
+		<Description>Error with secure NVRAM on the controller board</Description>
+		<Action>Replace the controller board. See“Engine board service check” on page 2-36.</Action>
+	</x466>
+	<x466>
+		<Error>952.xx</Error>
+		<Description>A recoverable MVRAM Cyclic Redundancy Check error occurred.</Description>
+		<Action>Performing POR will clear this error.</Action>
+	</x466>
+	<x466>
+		<Error>953.xx</Error>
+		<Description>NVRAM chip failure with mirror</Description>
+		<Action>Replace the engine board. See“Engine board service check” on page 2-36.</Action>
+	</x466>
+	<x466>
+		<Error>954.xx</Error>
+		<Description>NVRAM chip failure with system part.</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-35.</Action>
+	</x466>
+	<x466>
+		<Error>955.xx</Error>
+		<Description>The code ROM or NAND flash failed the Cyclic Redundancy Check or the NAND experienced an uncorrectible multi-bit failure.</Description>
+	</x466>
+	<x466>
+		<Error>956</Error>
+		<Description>RIP card failure: processor failure</Description>
+	</x466>
+	<x466>
+		<Error>956.01</Error>
+		<Description>Processor overtemp</Description>
+	</x466>
+	<x466>
+		<Error>957.xx</Error>
+		<Description>RIP card failure: ASIC failure</Description>
+	</x466>
+	<x466>
+		<Error>958.xx</Error>
+		<Description>Printer has performed more than 100 “shift and reflash” operations as a result of ECC bit corrections</Description>
+	</x466>
+	<x466>
+		<Error>Firmware or controller board errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>959.01</Error>
+		<Description>Controller verification failure of pensive boot code</Description>
+		<Action>Call the next level of support to update the firmware, or replace the controller board. See“Controller board service check” on page 2-35.</Action>
+	</x466>
+	<x466>
+		<Error>959.02</Error>
+		<Description>Failure to authenticate Signature Verification Code</Description>
+	</x466>
+	<x466>
+		<Error>959.03</Error>
+		<Description>Signature Verification Code failed to authenticate a code partition.</Description>
+		<Action>Update firmware and call the next level of support, or replace the controller board. See“Controller board service check” on page 2-35.</Action>
+	</x466>
+	<x466>
+		<Error>959.04</Error>
+		<Description>Jump to unverified address</Description>
+	</x466>
+	<x466>
+		<Error>959.05</Error>
+		<Description>Unknown boot failure</Description>
+		<Action>Update firmware and call the next level of support, or replace the controller board. See“Controller board service check” on page 2-35</Action>
+	</x466>
+	<x466>
+		<Error>959.2</Error>
+		<Description>Controller hardware failure</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-35.</Action>
+	</x466>
+	<x466>
+		<Error>959.21</Error>
+		<Description>Code did not respond to command request.</Description>
+	</x466>
+	<x466>
+		<Error>959.22</Error>
+		<Description>Challenge secret failure</Description>
+	</x466>
+	<x466>
+		<Error>959.23</Error>
+		<Description>Self test failed during initialization.</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-35.</Action>
+	</x466>
+	<x466>
+		<Error>959.24</Error>
+		<Description>EEPROM retention error</Description>
+	</x466>
+	<x466>
+		<Error>959.25</Error>
+		<Description>Insufficient device space during HW prog</Description>
+	</x466>
+	<x466>
+		<Error>959.26</Error>
+		<Description>Incremental counter reset exceeds maximum value</Description>
+	</x466>
+	<x466>
+		<Error>959.27</Error>
+		<Description>Increment count failed due to max value limit</Description>
+	</x466>
+	<x466>
+		<Error>959.28</Error>
+		<Description>Invalid SP memory configuration</Description>
+	</x466>
+	<x466>
+		<Error>Memory and emulation errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>960.xx</Error>
+		<Description>RAM memory error: RAM soldered on the controller board is bad</Description>
+		<Action>Replace the controller board. See“Controller board service check” on page 2-35.</Action>
+	</x466>
+	<x466>
+		<Error>961.xx</Error>
+		<Description>RAM memory error: memory card in slot is bad.</Description>
+		<Action>Replace the memory card.</Action>
+	</x466>
+	<x466>
+		<Error>964.xx</Error>
+		<Description>Download Emulation Cyclic Redundancy Check Error: checksum failure detected in the emulation header or emulation file.</Description>
+		<Action>Disable the Download Emulation. Program the download emulation into the firmware card again. If this does not resolve the problem, then replace the firmware card and download the emulation again.</Action>
+	</x466>
+	<x466>
+		<Error>Network errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>975.xx</Error>
+		<Description>Unrecognizable network</Description>
+		<Action>Call the next level of support.</Action>
+	</x466>
+	<x466>
+		<Error>976.xx</Error>
+		<Description>Unrecoverable software error in network port</Description>
+	</x466>
+	<x466>
+		<Error>978.xx</Error>
+		<Description>Bad checksum while programming network port</Description>
+	</x466>
+	<x466>
+		<Error>979.xx</Error>
+		<Description>Flash parts failed while programing network port</Description>
+	</x466>
+	<x466>
+		<Error>Other errors</Error>
+		<Description/>
+	</x466>
+	<x466>
+		<Error>980.xx</Error>
+		<Description>Engine experiencing unreliable communication with the specified device</Description>
+		<Action>Call the next level of support.</Action>
+	</x466>
+	<x466>
+		<Error>981.xx</Error>
+		<Description>Engine protocol violation detected by the specified device</Description>
+	</x466>
+	<x466>
+		<Error>982.xx</Error>
+		<Description>Communications error detected by the specified device</Description>
+	</x466>
+	<x466>
+		<Error>983.xx</Error>
+		<Description>Invalid command received by the specified device</Description>
+	</x466>
+	<x466>
+		<Error>984.xx</Error>
+		<Description>Invalid command parameter received by the specified device</Description>
+		<Action>Call the next level of support.</Action>
+	</x466>
+	<x466>
+		<Error>990.xx</Error>
+		<Description>An equipment check condition has occurred in the specified device, but the device is unable to identify the exact component failure.</Description>
+	</x466>
+	<x466>
+		<Error>991.xx</Error>
+		<Description>The specified device has detected an equipment check in its system card.</Description>
+	</x466>
+</lexmark>
